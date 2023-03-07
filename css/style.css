@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/bg-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.9;  
+}
+.wrapper{
+    background-color: rgb(32, 95, 146);
+    opacity: 0.9;
+}
+.main{
+    padding: 0px;
+}
+/* START OF HEADER */
+.logo{
+    width: 120px;
+}
+.fa-heart:hover{
+    color: rgb(223, 0, 0) !important;
+    cursor: pointer;
+    transition: 0.8s !important;
+}
+.fa-shopping-basket:hover{
+    color: rgb(15, 59, 15) !important;
+    cursor: pointer;
+    transition: 0.8s !important;
+}
+/* END OF HEADER */
+/* START OF NAVBAAR */
+.navbaar{
+    padding: 10px;
+    margin: 0px; 
+}
+.items{
+    color: white !important;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+.items:hover{
+    color: black !important;
+    transition: 0.8s !important;
+}
+.off-items{
+    color: black !important;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.off-items:hover{
+    color: rgb(58, 53, 53) !important;
+    transition: 0.8s !important;
+}
+.hidden-sidebaar-btn{
+    display: none;
+}
+.hidden-sidebaar{
+    display: none;
+}
+/* END OF NAVBAAR */
+/* START OF BODY */
+.main-body{
+    width: 100%;
+}
+/* START OF BODY LEFT SIDE */
+.body-left-side{
+    width: 55%;
+}
+.one:hover{
+    color: antiquewhite !important;
+    background-color: rgb(148, 78, 78) !important;
+    transition: 0.8s !important;
+}
+.heading{
+    padding: 10px 20px;
+    width: 80%;
+}
+.heading:hover{
+    color: antiquewhite !important;
+    background-color: rgb(148, 78, 78) !important;
+    transition: 0.8s !important;
+    cursor: pointer;
+}
+.list{
+    list-style-type: square;  
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    color: black !important;
+    transition: 0.5s !important;
+}
+.list > li{
+    padding-top: 10px;
+}
+.fa-facebook{
+    color: rgb(31, 31, 83);
+}
+.fa-instagram{
+    color: rgb(194, 22, 22)
+}
+.fa-twitter{
+    color: rgb(36, 147, 199);
+}
+/* END OF BODY LEFT SIDE */
+/* START OF BODY RIGHT SIDE */
+.body-right-side{
+    width: 45%;
+}
+.iframe-img{
+    width: 100%;
+}
+/* END OF BODY RIGHT SIDE */
+/* END OF BODY */
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    .hidden-sidebaar-btn{
+        display: block;
+    }
+    .hidden-sidebaar{
+        display: block;
+    }
+    .items{
+        display: none;
+    }
+    .main-body{
+        display: block !important;
+    }
+    .body-left-side{
+        display: block !important;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+    .body-right-side{
+        display: block !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        margin-top: 40px;
+    }
+    .iframe-img{
+        width: 80%;
+        display: block;
+        margin: 0 auto !important;
+    }
+    .button-side{
+        display: block !important;
+    }
+    .one{
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .heading{
+        width: 100% !important;
+    }
+    .use-app-btn{
+        width: 90% !important;
+    }
+}
